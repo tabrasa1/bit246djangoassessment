@@ -1,2 +1,2 @@
 # bit246djangoassessment
-practical assessment 2 due week 12
+practical assessment 3 due week 12
