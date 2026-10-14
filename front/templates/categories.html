@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>News Categories</title>
+</head>
+<body>
+    <h1>News Categories</h1>
+    
+    <ul>
+        {# Funky as hell way of doing for loops. Pay attention to each percent-percent tag #}
+        {% for category in categories %}
+            <li>
+                <strong>{{ category.categoryName }}</strong>
+            </li>
+        {% empty %}
+            <li>No categories found yet!</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
